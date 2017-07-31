@@ -6,6 +6,6 @@ import (
 
 type Slice []Any
 
-func (s Slice)Rand() Any {
+func (s Slice)Random() Any {
     return s[rand.Intn(len(s))]
 }
